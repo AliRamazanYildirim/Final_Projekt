@@ -528,7 +528,7 @@ h1 span {
 
 /*! Footer-section End */
 /*! Media Queries Responsive */
-@media (min-width: 770px) and (max-width: 1510px) {
+@media (min-width: 770px) and (max-width: 1592px) {
   .home .content .left-div {
     margin-top: 10rem;
   }
@@ -537,7 +537,7 @@ h1 span {
     color: var(--main-color);
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 390px) and (max-width: 768px) {
   .header #menu-btn {
     display: inline-block;
   }
@@ -548,7 +548,7 @@ h1 span {
     height: calc(100vh - 40rem);
     width: 30rem;
     box-shadow: 0px 20px 14px 0px rgba(0, 0, 0, 0.75);
-    right: 3rem;
+    right: 2rem;
   }
   .header .nav-bar a {
     display: block;
@@ -557,16 +557,25 @@ h1 span {
     padding: 0.5rem;
     font-size: 2rem;
   }
+  .header .cart-items-container {
+    display: none;
+  }
   .header.nav-bar.active {
     right: 3rem;
   }
   .home .content {
     position: absolute;
-    padding-top: 9rem;
-    height: calc(100vh - 9rem);
+    padding-top: 55rem;
+    height: calc(100vh - 5rem);
   }
-  .produkte h1 {
-    padding-top: 8rem;
+  .home .content .right-div {
+    margin-top: 6rem;
+  }
+  .produkte {
+    padding-top: 90rem;
+  }
+  .über .row .image img {
+    width: 30rem;
   }
 }
 
