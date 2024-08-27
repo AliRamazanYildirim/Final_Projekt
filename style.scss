@@ -546,40 +546,16 @@ h1 {
 
 /*! Media Queries Responsive */
 
-
-@media (min-width: 991px) {
-	html {
-		font-size: 55%;
-	}
-	.header {
-		padding: 1.5rem 2rem;
-		.logo {
-			img {
-				height: 7rem;
-			}
-		}
-	}
-	section {
-		padding: 3.5rem 7%;
-	}
+@media (min-width:770px) and (max-width:1510px) {
 	.home {
 		.content {
             .left-div{
+                margin-top: 10rem;
                 h3 {
                     font-size: 7rem;
                     color: var(--main-color);
-                    margin-top: -4rem;
                 }
             }
-		}
-	}
-	.produkte {
-		.box-container {
-			.box {
-				h3 {
-					font-size: 3.4rem;
-				}
-			}
 		}
 	}
 }
@@ -610,7 +586,7 @@ h1 {
 	}
     .home .content{
         position: absolute;
-        padding-top: 7rem;
+        padding-top: 9rem;
         height: calc(100vh - 9rem);
     }
     .produkte h1{

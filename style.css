@@ -528,26 +528,13 @@ h1 span {
 
 /*! Footer-section End */
 /*! Media Queries Responsive */
-@media (min-width: 991px) {
-  html {
-    font-size: 55%;
-  }
-  .header {
-    padding: 1.5rem 2rem;
-  }
-  .header .logo img {
-    height: 7rem;
-  }
-  section {
-    padding: 3.5rem 7%;
+@media (min-width: 770px) and (max-width: 1510px) {
+  .home .content .left-div {
+    margin-top: 10rem;
   }
   .home .content .left-div h3 {
     font-size: 7rem;
     color: var(--main-color);
-    margin-top: -4rem;
-  }
-  .produkte .box-container .box h3 {
-    font-size: 3.4rem;
   }
 }
 @media (max-width: 768px) {
@@ -575,7 +562,7 @@ h1 span {
   }
   .home .content {
     position: absolute;
-    padding-top: 7rem;
+    padding-top: 9rem;
     height: calc(100vh - 9rem);
   }
   .produkte h1 {
